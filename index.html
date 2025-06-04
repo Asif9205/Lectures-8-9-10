@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        *{
+            border: 0.5em solid black;
+        }
+        div{
+            width: 15em;
+            height: 15em;
+            background-color: rebeccapurple;
+            border: 0.5em solid black;
+        }
+        .box-2{
+            display: block;
+            width: 15em;
+            height: 15em;
+            background-color: magenta;
+            border: 0.5em solid black;
+        }
+        #box-3{
+            display: block;
+            width: 15em;
+            height: 15em;
+            background-color: green;
+            border: 0.5em solid black;
+        }
+        #border,.box-2,#box-3{
+            display: inline-block;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="border">Element Selector</div>
+    <span class="box-2">Class Selector</span>
+    <span id="box-3">ID Selector</span>
+    
+</body>
+</html>
